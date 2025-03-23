@@ -1,1 +1,63 @@
+/* Addition program */
+#include <stdio.h>
 
+/* function main begins program execution */
+int main( void )
+{
+   int integer1 /* first number to be input by user  */
+   int integer2 /* second number to be input by user */
+   int x;      /* variable in which sum will be stored */ 
+
+   printf( Enter first integer\n ); /* prompt */
+   scanf( "%d", &integer1 );        /* read an integer */
+
+   printf( "Enter second integer\n" ); /* prompt */
+   scanf( "%d", &integer2 );           /* read an integer */
+   
+   sum = integer1 + integer2; /* assign total to sum */
+
+   printf( "Sum is %d\n", sum ); /* print sum */
+   return 0; /* indicate that program ended successfully */
+
+} /* end function main */
+
+
+
+
+there is 3 mistakes on this program
+1st problem is line 7:
+
+int integer1 /* first number to be input by user  */
+in this line the semicolon is missing
+
+correct usage is:
+int integer1; /* first number to be input by user  */
+
+
+2nd problem is in line 8:
+
+int integer2 /* second number to be input by user */
+in this line semicolon is missing
+
+correct usage is:
+int integer2; /* second number to be input by user */
+
+3rd problem is in line 9:
+
+int x;      /* variable in which sum will be stored */
+
+in line 9 x is defined as sum variable but not used after definition 
+for example in line 17:
+sum = integer1 + integer2; /* assign total to sum */
+
+if we change x in line 9 as:
+int sum;      /* variable in which sum will be stored */
+the problem will be solved.
+
+4th and final problem is in line 11:
+
+printf( Enter first integer\n ); /* prompt */
+double quotes missing in this prompt
+
+correct usage:
+printf( "Enter first integer\n" ); /* prompt */
