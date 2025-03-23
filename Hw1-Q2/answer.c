@@ -7,7 +7,7 @@ int main( void )
    int integer1; /* first number to be input by user  */  //1st problem added the missing semicolon ";"
    int integer2; /* second number to be input by user */  //2nd problem added the missing semicolon ";"
    int sum;      /* variable in which sum will be stored */   //3rd problem variable x is defined for sum but then used sum for all summations
-														      // and x is not used any of them, so x replaced with sum
+							      // and x is not used any of them, so x replaced with sum
 
    printf( "Enter first integer\n" ); /* prompt */        //4th problem added the missing double quatation mark (")
    scanf( "%d", &integer1 );        /* read an integer */
