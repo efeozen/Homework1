@@ -24,7 +24,7 @@ int main( void )
 
 
 
-there is 3 mistakes on this program
+there is 4 mistakes on this program
 1st problem is line 7:
 
 int integer1 /* first number to be input by user  */
